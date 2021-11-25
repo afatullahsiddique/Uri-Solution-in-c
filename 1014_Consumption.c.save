@@ -1,0 +1,11 @@
+#include<stdio.h>
+int main()
+{
+    int x;
+    double y;
+    
+    scanf("%d\n%lf", x,y);
+    printf("%lf\n", km/l);
+    
+    return 0;
+}

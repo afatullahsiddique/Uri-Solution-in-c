@@ -1,0 +1,12 @@
+#include<stdio.h>
+
+int main()
+{
+    char name;
+    int x, y;
+    scanf("%s %lf %lf", &name, &x, &y);
+    double total = (x + y) * .15 ;
+    printf("TOTAL = R$ %.1lf\n", total);
+
+    return 0;
+}
